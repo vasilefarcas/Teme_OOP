@@ -1,0 +1,8 @@
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\PlayingCards\PlayingCards\bin\Debug\PlayingCards.exe.config
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\PlayingCards\PlayingCards\bin\Debug\PlayingCards.exe
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\PlayingCards\PlayingCards\bin\Debug\PlayingCards.pdb
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\PlayingCards\PlayingCards\obj\Debug\PlayingCards.csproj.AssemblyReference.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\PlayingCards\PlayingCards\obj\Debug\PlayingCards.csproj.SuggestedBindingRedirects.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\PlayingCards\PlayingCards\obj\Debug\PlayingCards.csproj.CoreCompileInputs.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\PlayingCards\PlayingCards\obj\Debug\PlayingCards.exe
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\PlayingCards\PlayingCards\obj\Debug\PlayingCards.pdb
