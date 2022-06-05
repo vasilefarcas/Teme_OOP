@@ -8,6 +8,7 @@ namespace ArticleList
 {
     internal class Article
     {
+        #region Fields
         string title;
         string[] author;
         string content;
@@ -15,7 +16,7 @@ namespace ArticleList
         DateTime lastEdit;
         int likes;
         int dislikes;
-
+        #endregion
         #region Properties
         public string Title { get { return title; } set { title = value; } }
         public string[] Author { get { return author; } set { author = value; } }
@@ -25,7 +26,6 @@ namespace ArticleList
         public int GetLikes { get => likes; }
         public int GetDisikes { get => dislikes; }
         #endregion
-
         #region Constructor
         public Article(string title, string[] author, string content, DateTime publicationDate, int likes = 0, int dislikes = 0)
         {
@@ -58,7 +58,5 @@ namespace ArticleList
                 likes--;
         }
         #endregion
-
-
     }
 }

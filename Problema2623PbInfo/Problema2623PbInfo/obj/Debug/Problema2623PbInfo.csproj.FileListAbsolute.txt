@@ -1,0 +1,8 @@
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Problema2623PbInfo\Problema2623PbInfo\bin\Debug\Problema2623PbInfo.exe.config
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Problema2623PbInfo\Problema2623PbInfo\bin\Debug\Problema2623PbInfo.exe
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Problema2623PbInfo\Problema2623PbInfo\bin\Debug\Problema2623PbInfo.pdb
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Problema2623PbInfo\Problema2623PbInfo\obj\Debug\Problema2623PbInfo.csproj.AssemblyReference.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Problema2623PbInfo\Problema2623PbInfo\obj\Debug\Problema2623PbInfo.csproj.SuggestedBindingRedirects.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Problema2623PbInfo\Problema2623PbInfo\obj\Debug\Problema2623PbInfo.csproj.CoreCompileInputs.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Problema2623PbInfo\Problema2623PbInfo\obj\Debug\Problema2623PbInfo.exe
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Problema2623PbInfo\Problema2623PbInfo\obj\Debug\Problema2623PbInfo.pdb
