@@ -8,43 +8,62 @@ namespace PlayingCards
 {
     public class Deck
     {
-        Card[] cards = new Card[53];
+        Card[] cards = new Card[52];
+        bool[] used = new bool[52];
+        int countUsed = 0;
         private Random r = new Random();
+        #region Properties
+        public int CardsLeft { get { return 52 - countUsed; } }
+        #endregion
+        #region Constructor
         public Deck()
         {
-            string[] value = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
             string[] suit = { "Heart", "Diamond", "Club", "Spade" };
             int cardNumber = 0;
             for (int j = 0; j < 4; j++)
             {
-                for (int i = 0; i < 13; i++)
+                for (int i = 2; i < 15; i++)
                 {
-                    cards[cardNumber] = new Card(value[i], suit[j]);
+                    cards[cardNumber] = new Card(i, suit[j]);
                     cardNumber++;
                 }
             }
         }
+        #endregion
+        #region Methods
         public void Shuffle()
         {
             bool[] used = new bool[53];
-            for (int i = 0; i < 300; i++)
+            for (int i = 0; i < 1000; i++)
             {
                 Switch(cards[r.Next(0, 52)], cards[r.Next(0, 52)]);
             }
         }
-        public Card RandomCard() => cards[r.Next(0, 52)];
+        public Card GetRandomCard()
+        {
+            int position = r.Next(0, 52);
+            while (used[position] == true)
+                position = r.Next(0, 52);
+            countUsed++;
+            used[position] = true;
+            return cards[position];
+        }
         private void Switch(Card card1, Card card2)
         {
-            Card aux;
-            aux = card1;
-            card1 = card2;
-            card2 = aux;
+            Card aux = new Card();
+            aux.Rank = card1.Rank;
+            aux.Suit = card1.Suit;
+            card1.Rank = card2.Rank;
+            card1.Suit = card2.Suit;
+            card2.Rank = aux.Rank;
+            card2.Suit = aux.Suit;
         }
 
         public void view()
         {
             for (int i = 0; i < cards.Length; i++)
-                Console.WriteLine(cards[i]);
+                Console.WriteLine(cards[i].Text);
         }
+        #endregion
     }
 }

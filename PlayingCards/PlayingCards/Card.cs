@@ -8,10 +8,40 @@ namespace PlayingCards
 {
     public class Card
     {
-        string rank;
+        int rank;
         string suit;
         private Random r = new Random();
-        public Card(string rank, string suit)
+        internal int Rank
+        {
+            get { return rank; }
+            set
+            {
+                if (value >= 2 && value <= 14)
+                    rank = value;
+            }
+        }
+        internal string Suit
+        {
+            get { return suit; }
+            set { suit = value; }
+        }
+        public string Text
+        {
+            get
+            {
+                string tempRank;
+                switch (this.rank)
+                {
+                    case 11: tempRank = "J"; break;
+                    case 12: tempRank = "Q"; break;
+                    case 13: tempRank = "K"; break;
+                    case 14: tempRank = "A"; break;
+                    default: tempRank = this.rank.ToString(); break;
+                }
+                return tempRank + " of " + suit;
+            }
+        }
+        public Card(int rank, string suit)
         {
             this.rank = rank;
             this.suit = suit;
@@ -19,17 +49,8 @@ namespace PlayingCards
         // generating random cards
         public Card()
         {
-            int value = r.Next(2, 14);
-            switch (value)
-            {
-                case 11: this.rank = "J"; break;
-                case 12: this.rank = "Q"; break;
-                case 13: this.rank = "K"; break;
-                case 14: this.rank = "A"; break;
-                default: this.rank = value.ToString(); break;
-            }
-            int tempSuit = r.Next(1, 4
-                );
+            this.rank = r.Next(2, 14);
+            int tempSuit = r.Next(1, 4);
             switch (tempSuit)
             {
                 case 1: this.suit = "Heart"; break;
@@ -41,8 +62,12 @@ namespace PlayingCards
         }
         public override string ToString()
         {
-            return rank + " of " + suit;
+            return this.Text;
         }
+        public static bool operator >(Card card1, Card card2) => card1.rank > card2.rank;
+        public static bool operator <(Card card1, Card card2) => card1.rank < card2.rank;
+        public static bool operator ==(Card card1, Card card2) => card1.rank == card2.rank && card1.suit == card2.suit;
+        public static bool operator !=(Card card1, Card card2) => card1.rank != card2.rank || card1.suit != card2.suit;
 
     }
 }

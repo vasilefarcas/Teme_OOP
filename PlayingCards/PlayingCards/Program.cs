@@ -10,19 +10,19 @@ namespace PlayingCards
     {
         static void Main(string[] args)
         {
-             Deck deck1 = new Deck();
+            Deck deck1 = new Deck();
+            Console.WriteLine("Inainte de shuffle.");
             deck1.view();
             deck1.Shuffle();
+            Console.WriteLine("\n\n\n\nDupa shuffle.\n\n\n\n");
             deck1.view();
-            
-            /*
-            for (int i = 0; i < 10; i++)
+            Console.WriteLine("\n\n\n\nSe extrag pe rand carti.\n\n\n\n");
+            for (int i = 0; i < 53; i++)
             {
-                Card card = new Card();
-                Console.WriteLine(card);
+                Console.WriteLine(deck1.GetRandomCard() + " " + deck1.CardsLeft);
             }
-            */
             Console.ReadKey();
         }
     }
 }
+
