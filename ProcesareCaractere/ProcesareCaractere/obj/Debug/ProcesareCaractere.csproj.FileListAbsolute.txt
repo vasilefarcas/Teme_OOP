@@ -1,0 +1,8 @@
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ProcesareCaractere\ProcesareCaractere\bin\Debug\ProcesareCaractere.exe.config
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ProcesareCaractere\ProcesareCaractere\bin\Debug\ProcesareCaractere.exe
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ProcesareCaractere\ProcesareCaractere\bin\Debug\ProcesareCaractere.pdb
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ProcesareCaractere\ProcesareCaractere\obj\Debug\ProcesareCaractere.csproj.AssemblyReference.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ProcesareCaractere\ProcesareCaractere\obj\Debug\ProcesareCaractere.csproj.SuggestedBindingRedirects.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ProcesareCaractere\ProcesareCaractere\obj\Debug\ProcesareCaractere.csproj.CoreCompileInputs.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ProcesareCaractere\ProcesareCaractere\obj\Debug\ProcesareCaractere.exe
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ProcesareCaractere\ProcesareCaractere\obj\Debug\ProcesareCaractere.pdb
