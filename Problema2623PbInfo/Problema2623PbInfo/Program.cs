@@ -18,8 +18,9 @@ namespace Problema2623PbInfo
             {
                 v[i] = int.Parse(buff[i]);
             }
-            for (int i = 1; i < n - 1; i++)
+            for (int i = 0; i < n; i++)
             {
+
                 if (v[i] > max)
                 {
                     st[i] = v[i];
@@ -27,13 +28,14 @@ namespace Problema2623PbInfo
                 }
                 else
                     st[i] = max;
+
                 if (v[n - i - 1] < min)
                 {
                     dr[n - i - 1] = v[n - i - 1];
                     min = dr[n - i - 1];
                 }
                 else
-                    dr[i] = min;
+                    dr[n - i - 1] = min;
             }
             for (int i = 1; i < n - 1; i++)
             {
@@ -41,7 +43,7 @@ namespace Problema2623PbInfo
                     rez++;
             }
 
-            Console.WriteLine(rez--);
+            Console.WriteLine(rez);
             Console.ReadLine();
         }
     }
