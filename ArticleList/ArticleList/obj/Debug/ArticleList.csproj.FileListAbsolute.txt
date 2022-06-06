@@ -1,0 +1,8 @@
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ArticleList\ArticleList\bin\Debug\ArticleList.exe.config
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ArticleList\ArticleList\bin\Debug\ArticleList.exe
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ArticleList\ArticleList\bin\Debug\ArticleList.pdb
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ArticleList\ArticleList\obj\Debug\ArticleList.csproj.AssemblyReference.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ArticleList\ArticleList\obj\Debug\ArticleList.csproj.SuggestedBindingRedirects.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ArticleList\ArticleList\obj\Debug\ArticleList.csproj.CoreCompileInputs.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ArticleList\ArticleList\obj\Debug\ArticleList.exe
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ArticleList\ArticleList\obj\Debug\ArticleList.pdb
