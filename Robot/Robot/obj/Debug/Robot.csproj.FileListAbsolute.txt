@@ -1,0 +1,8 @@
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Robot\Robot\bin\Debug\Robot.exe.config
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Robot\Robot\bin\Debug\Robot.exe
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Robot\Robot\bin\Debug\Robot.pdb
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Robot\Robot\obj\Debug\Robot.csproj.AssemblyReference.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Robot\Robot\obj\Debug\Robot.csproj.SuggestedBindingRedirects.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Robot\Robot\obj\Debug\Robot.csproj.CoreCompileInputs.cache
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Robot\Robot\obj\Debug\Robot.exe
+D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\Robot\Robot\obj\Debug\Robot.pdb
