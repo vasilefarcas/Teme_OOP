@@ -10,79 +10,64 @@ namespace ArticleList
     {
         #region Fields
         string title;
-        // public Author[] author;
-        string[] authorString;
+        Author[] author;
+        int likes;
+        int dislikes;
         string content;
         DateTime publicationDate;
         DateTime lastEdit;
-        int likes;
-        int dislikes;
         #endregion
-        #region Properties
-        public string Title { get { return title; } set { title = value; } }
-        //public Author[] Author { get { return author; } set { author = value; } }
-        public string[] AuthorString { get { return authorString; } set { authorString = value; } }
-
-        public string Content { get { return content; } set { content = value; } }
-        public DateTime LastEdit { get { return lastEdit; } set { lastEdit = value; } }
-        public DateTime PublicationDate { get => publicationDate; }
-        public int GetLikes { get => likes; }
-        public int GetDisikes { get => dislikes; }
-        #endregion
-        #region Constructor
-        public Article(string title, string[] author, string content, DateTime publicationDate, int likes = 0, int dislikes = 0)
+        #region Constructors
+        public Article(string title, Author[] author, string content, DateTime publicationDate, int likes = 0, int dislikes = 0)
         {
             this.title = title;
-            this.authorString = author;
-            this.content = content;
-            this.publicationDate = publicationDate;
-            this.lastEdit = this.publicationDate;
+            this.author = author;
             this.likes = likes;
             this.dislikes = dislikes;
-            //foreach (Author item in author)
-            //  item.AddArticle();
+            this.content = content;
+            this.publicationDate = publicationDate;
+            this.lastEdit = publicationDate;
         }
         #endregion
+        #region Properties
+        public string GetTitle { get => this.title; set { this.title = value; } }
+        public string GetAuthor
+        {
+            get
+            {
+                StringBuilder sb = new StringBuilder();
+                foreach (Author item in this.author)
+                {
+                    sb.Append($"{item.Name},");
+                }
+                return sb.ToString();
+            }
+        }
+        public int NumberOfLikes { get => likes; }
+        public int NumberOfDislikes { get => dislikes; }
+        public string GetContent { get => content; set { content = value; } }
+        public DateTime GetPublicationDate { get => publicationDate; }
+        public DateTime LastEdit { get => lastEdit; set { lastEdit = value; } }
+        #endregion
         #region Methods
-        public string GetAuthorsText()
-        {
-            StringBuilder sb = new StringBuilder();
-            //foreach (Author item in this.author)
-            //   sb.Append(item + ", ");
-            foreach (string item in authorString)
-                sb.Append(item + ", ");
-            return sb.ToString();
-        }
-        public void AddLike()
-        {
-            likes++;
-        }
-        public void RemoveLike()
-        {
-            if (likes > 0)
-                likes--;
-        }
-        public void AddDisike()
-        {
-            dislikes++;
-        }
-        public void RemoveDislike()
-        {
-            if (likes > 0)
-                likes--;
-        }
+        public void IncrementLikes()
+        { likes++; }
+        public void IncrementDislikes()
+        { dislikes++; }
+        public void DecrementLikes()
+        { if (likes > 0) likes--; }
+        public void DecrementDislikes()
+        { if (dislikes > 0) dislikes--; }
         #endregion
         #region Overrides
         public override string ToString()
         {
-            StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append("The article ");
-            stringBuilder.Append(this.title);
-            stringBuilder.Append(" written by ");
-            stringBuilder.Append(GetAuthorsText());
-            stringBuilder.Append(" with the content: ");
-            stringBuilder.Append(this.content);
-            return stringBuilder.ToString();
+            StringBuilder sb = new StringBuilder();
+            sb.Append($"{this.GetTitle} written by ");
+            foreach(Author item in this.author)
+                sb.Append($"{item.Name} ");
+            sb.Append($" and has {this.NumberOfLikes} likes.");
+            return sb.ToString();
         }
         #endregion
     }

@@ -10,7 +10,7 @@ namespace ProcesareCaractere
     {
         static void Main(string[] args)
         {
-            TextFile file = new TextFile(@"D:\Drive\OneDrive\Facultate\Semestrul II\Programare orientata pe obiecte\Aplicatii\Teme_OOP\ProcesareCaractere\ProcesareCaractere\FisierSursa.txt");
+            TextFile file = new TextFile(args[0]);
             file.viewText();
             Console.WriteLine("The number of characters including spaces: " + file.CharactersCount);
             Console.WriteLine("The number of characters without spaces: " + file.CharactersCountWithoutSpaces);

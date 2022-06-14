@@ -11,20 +11,8 @@ namespace PlayingCards
         int rank;
         string suit;
         private Random r = new Random();
-        internal int Rank
-        {
-            get { return rank; }
-            set
-            {
-                if (value >= 2 && value <= 14)
-                    rank = value;
-            }
-        }
-        internal string Suit
-        {
-            get { return suit; }
-            set { suit = value; }
-        }
+        internal int Rank { get => rank; set { rank = value; } }
+        internal string Suit { get => suit; set { suit = value; } }
         public string Text
         {
             get

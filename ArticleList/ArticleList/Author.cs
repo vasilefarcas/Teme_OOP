@@ -1,21 +1,29 @@
-﻿namespace ArticleList
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ArticleList
 {
     internal class Author
     {
-        string[] name;
+        private string name;
         int numberOfArticles;
-        public string[] Name { get => name; }
-        public int NumberOfArticles { get => NumberOfArticles; }
-        public Author(string[] name)
+        public string Name { get => this.name; }
+        public int NumberOfArticles { get => numberOfArticles; }
+        public Author(string Name)
         {
-            this.name = name;
-            numberOfArticles = 0;
+            this.name = Name;
+            this.numberOfArticles = 0;
         }
         public void AddArticle()
-        { numberOfArticles++; }
+        {
+            this.numberOfArticles++;
+        }
         public override string ToString()
         {
-            return "";
+            return $"{this.name} who wrote {numberOfArticles} articles.";
         }
     }
 }

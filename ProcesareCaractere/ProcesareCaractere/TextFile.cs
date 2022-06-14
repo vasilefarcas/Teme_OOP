@@ -69,6 +69,7 @@ namespace ProcesareCaractere
         {
             TextReader load = new StreamReader(path);
             string linie;
+            // load.ReadToEnd();
             while ((linie = load.ReadLine()) != null)
             {
                 text[numberOfLines] = linie;
